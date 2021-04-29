@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.login {
+    width: 25%;
+    height: 400px;
+    background-color: rgb(201 221 175);
+    margin-top: 100px;
+    margin-left: 550px;
+    padding-left: 75px;
+    padding-top: 75px;
+    border-radius: 10px;
+}
+
+input {
+    margin: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 85px;
+    background-color: rgb(201 221 175);
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(69, 109, 182);
+}
+
+.btn:active {
+    padding-top: 2px;
+}
+
+.login p {
+    font-style: italic;
+}
