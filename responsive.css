@@ -1,0 +1,10 @@
+@media (max-width: 480px) {
+    .main img {
+        display: none;
+    }
+    .login {
+        width: 80%;
+        margin: auto;
+        margin-top: 75px;
+    }
+}
