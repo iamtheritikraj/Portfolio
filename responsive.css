@@ -48,7 +48,11 @@ header {
     margin: auto;
     padding: 10px;
 }
-
+.email {
+    position: fixed;
+    top: 582px;
+    left: 434px;
+}
 .input {
     margin: 0;
     padding: 0;
