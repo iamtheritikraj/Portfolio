@@ -71,3 +71,14 @@ header {
     top: 527px;
     left: 270px;
 }
+.login {
+    width: 75%;
+    height: 400px;
+    background-color: rgb(201 221 175);
+    padding-left: 56px;
+    padding-top: 58px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+}
