@@ -67,9 +67,7 @@ header {
 }
 
 .email {
-    position: fixed;
-    top: 527px;
-    left: 270px;
+    display:none;
 }
 .login {
     width: 75%;
