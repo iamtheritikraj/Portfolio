@@ -1,10 +1,45 @@
-@media (max-width: 480px) {
-    .main img {
-        display: none;
-    }
-    .login {
-        width: 80%;
-        margin: auto;
-        margin-top: 75px;
-    }
+.main img {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+.menu li a {
+    flex-direction: row;
+}
+
+.hi {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.service {
+    height: 600px;
+}
+
+.box {
+    float: none;
+    display: block;
+    margin: auto;
+    margin: 30px auto;
+}
+
+.contact {
+    width: 80%;
+    margin: 0;
+    padding: 0;
+}
+
+.input {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    margin-left: 0;
 }
