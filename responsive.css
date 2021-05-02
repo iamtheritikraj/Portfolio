@@ -28,12 +28,13 @@ header {
     text-align: center;
 }
 
-.intro {
-    padding: 20px
+.intro,
+.about {
+    padding: 10px;
 }
 
 .service {
-    height: 700px;
+    height: 720px;
 }
 
 .box {
@@ -45,17 +46,17 @@ header {
 
 .contact {
     width: 80%;
-    margin: auto;
+    margin: 10px auto;
     padding: 10px;
 }
-.email {
-    position: fixed;
-    top: 582px;
-    left: 434px;
+
+.contact h2 {
+    padding: 5px;
 }
+
 .input {
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 0px;
     text-align: center;
 }
 
@@ -63,4 +64,10 @@ header {
     width: 100px;
     height: 30px;
     margin-left: 0;
+}
+
+.email {
+    position: fixed;
+    top: 527px;
+    left: 270px;
 }
