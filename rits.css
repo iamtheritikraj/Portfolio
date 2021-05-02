@@ -17,7 +17,7 @@ body {
     color: white;
 }
 
-.menu li {
+.menu li a {
     float: right;
 }
 
@@ -132,7 +132,7 @@ a:hover {
 .contact {
     width: 70%;
     margin: auto;
-    padding: 20px;
+    padding: 2em;
     background-color: rgb(94, 83, 83);
     border-radius: 50px;
     margin-bottom: 20px;
@@ -140,9 +140,8 @@ a:hover {
 
 .input {
     text-align: justify;
-    padding: 20px;
-    padding-left: 350px;
-    font-size: 20px;
+    padding: 2em;
+    padding-left: 20em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
