@@ -16,19 +16,19 @@
 }
 
 .service {
-    height: 600px;
+    height: 700px;
 }
 
 .box {
     float: none;
     display: block;
     margin: auto;
-    margin: 30px auto;
+    margin: 50px auto;
 }
 
 .contact {
     width: 80%;
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
