@@ -17,20 +17,35 @@ body {
     color: white;
 }
 
-.menu li a {
-    float: right;
-}
-
-.navbar a {
-    float: left;
-    color: white;
+#portfolio {
+    margin: 10px;
     padding: 10px;
-    margin-left: 40px;
+    color: white;
 }
 
-.navbar ul {
-    margin-right: 40px;
-    overflow: auto;
+.navbar {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 930px;
+}
+
+.hammenu {
+    display: none;
+}
+
+#activehem {
+    display: none;
+}
+
+.menu a {
+    margin: 10px;
+    padding: 10px;
+    color: white;
 }
 
 ul {
@@ -66,8 +81,7 @@ a {
 }
 
 .study {
-    position: absolute;
-    top: 370px;
+    position: relative;
     left: 33px;
     font-size: 20px;
     font-weight: bold;
@@ -182,3 +196,5 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+button {}
