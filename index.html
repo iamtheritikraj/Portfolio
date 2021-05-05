@@ -13,7 +13,8 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="#Hello">Portfolio</a>
+            <a id="portfolio" href="#Hello">Portfolio</a>
+
             <ul class="menu">
                 <li>
                     <a href="login.html">Login</a>
@@ -29,10 +30,28 @@
                 </li>
 
             </ul>
+            <div class="hammenu">
+                <a href="javascript:void(0);" onclick="toggle()"><img src="hammenu.PNG"></a>
+            </div>
+
         </nav>
     </header>
-    <div class="email">
-        <a href="mailto:ritikraj154@gmail.com"><img src="Email.png"></a>
+    <div id="activehem">
+        <ul class="menu2">
+            <li>
+                <a href="login.html">Login</a>
+            </li>
+            <li>
+                <a href="#contactus">Contact</a>
+            </li>
+            <li>
+                <a href="#aboutus">About</a>
+            </li>
+            <li>
+                <a href="#service">Services</a>
+            </li>
+        </ul>
+
     </div>
     <div class="main" id="Hello">
         <img src="ritik.jpg">
@@ -42,7 +61,8 @@
     <div class="intro">
         <p align="center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio rerum quod praesentium nostrum nihil, quisquam asperiores adipisci pariatur assumenda porro eaque aspernatur explicabo! Optio quo dolorem at ut. Magni ea provident quo modi voluptate fuga
-            adipisci velit fugiat, illum dolore.
+            adipisci velit fugiat, illum dolore. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam explicabo id maxime ipsa, voluptatum blanditiis! Error esse placeat voluptate repudiandae nihil cum vitae minus porro ipsa amet, maiores nesciunt
+            mollitia assumenda harum voluptatum corporis?
         </p>
     </div>
     <div class="service">
@@ -60,8 +80,10 @@
     </div>
     <div class="about" id="aboutus">
         <h2 id="about">About</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem hic, numquam omnis adipisci nesciunt eveniet magni culpa sit provident est a doloremque animi voluptate, earum aperiam explicabo molestiae? Molestias quam dolorem dolorum incidunt adipisci
-            nemo consectetur distinctio aperiam iste illo?</p>
+        <p id="para"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem hic, numquam omnis adipisci nesciunt eveniet magni culpa sit provident est a doloremque animi voluptate, earum aperiam explicabo molestiae? Molestias quam dolorem dolorum incidunt adipisci
+            nemo consectetur distinctio aperiam iste illo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam amet omnis, distinctio asperiores quidem, consequatur recusandae vero possimus, doloribus culpa quae autem voluptates ea accusamus
+            minima ratione optio? Deleniti cupiditate distinctio odit dolorem veritatis.</p>
+
     </div>
     <div class="contact" id="contactus">
         <h2 align="center">Contact Us</h2>
@@ -75,9 +97,25 @@
             <input class="btn" type="button" value="submit">
         </form>
     </div>
+    <div class="email">
+        <a href="mailto:ritikraj154@gmail.com"><img src="Email.png"></a>
+    </div>
     <footer>
         <p>&copy; Copyright Ritik Raj | All Rights Reserved</p>
     </footer>
+    <script>
+        let btn1 = document.getElementsByClassName('hammenu');
+        let para = document.getElementById('activehem');
+
+        function toggle() {
+            if (para.style.display != 'none')
+                para.style.display = 'none';
+            else
+                para.style.display = 'block';
+        }
+    </script>
+
+
 
 </body>
 
