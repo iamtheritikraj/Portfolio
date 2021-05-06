@@ -30,29 +30,23 @@
                 </li>
 
             </ul>
-            <div class="hammenu">
-                <a href="javascript:void(0);" onclick="toggle()"><img src="hammenu.PNG"></a>
-            </div>
 
         </nav>
     </header>
-    <div id="activehem">
-        <ul class="menu2">
-            <li>
-                <a href="login.html">Login</a>
-            </li>
-            <li>
-                <a href="#contactus">Contact</a>
-            </li>
-            <li>
-                <a href="#aboutus">About</a>
-            </li>
-            <li>
-                <a href="#service">Services</a>
-            </li>
-        </ul>
+    <div class="mobilemenu">
+        <a href="#hello">Portfolio</a>
+        <div id="links">
+            <a href="#service">Service</a>
+            <a href="#aboutus">About</a>
+            <a href="#contactus">Contact</a>
+            <a href="login.html">Login</a>
+        </div>
+        <a class="icon" onclick="toggle()">
+            <img src="hammenu.PNG">
+        </a>
 
     </div>
+
     <div class="main" id="Hello">
         <img src="ritik.jpg">
         <h2 class="hi">Hello,<br>I am Ritik Raj<br></h2>
@@ -104,8 +98,7 @@
         <p>&copy; Copyright Ritik Raj | All Rights Reserved</p>
     </footer>
     <script>
-        let btn1 = document.getElementsByClassName('hammenu');
-        let para = document.getElementById('activehem');
+        let para = document.getElementById('links');
 
         function toggle() {
             if (para.style.display != 'none')
