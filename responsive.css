@@ -1,104 +1,115 @@
-    header {
-        position: sticky;
-        top: 0;
-        left: 0;
-        background-color: rgb(29, 26, 26);
-        border-radius: 0px;
-    }
-    
-    .navbar a {
-        margin-left: 6px;
-    }
-    
-    .main img {
-        display: none;
-    }
-    
-    .menu {
-        display: none;
-    }
-    
-    .hammenu {
-        display: block;
-        margin-left: 175px;
-    }
-    
-    #hamdropmenu {
-        cursor: pointer;
-    }
-    
-    .menu2 li {
-        padding: 10px;
-    }
-    
-    .menu2 li a {
-        color: white;
-    }
-    
-    #activehem {
-        display: block;
-    }
-    
-    .menudrop {
-        display: none;
-    }
-    
-    .hi {
-        font-size: 4rem;
-        text-align: center;
-        padding-top: 16px;
-    }
-    
-    .intro,
-    .about {
-        padding: 10px;
-    }
-    
-    .service {
-        height: 720px;
-    }
-    
-    .box {
-        float: none;
-        display: block;
-        margin: auto;
-        margin: 50px auto;
-    }
-    
-    .contact {
-        width: 80%;
-        margin: 10px auto;
-        padding: 10px;
-    }
-    
-    .contact h2 {
-        padding: 5px;
-    }
-    
-    .input {
-        margin: 2px;
-        padding: 0px;
-        text-align: center;
-    }
-    
-    .btn {
-        width: 100px;
-        height: 30px;
-        margin-left: 0;
-    }
-    
-    .email {
-        display: none;
-    }
-    
-    .login {
-        width: 75%;
-        height: 400px;
-        background-color: rgb(201 221 175);
-        padding-left: 56px;
-        padding-top: 58px;
-        border-radius: 10px;
-        display: block;
-        margin: auto;
-        margin-top: 100px;
-    }
+   .navbar a {
+       margin-left: 6px;
+   }
+   
+   .main img {
+       display: none;
+   }
+   
+   .navbar {
+       display: none;
+   }
+   
+   .mobilemenu {
+       display: block;
+   }
+   
+   #links {
+       display: block;
+   }
+   
+   .mobilemenu {
+       position: sticky;
+       overflow: hidden;
+       background-color: #333;
+       position: relative;
+   }
+   
+   .mobilemenu #links {
+       display: none;
+   }
+   
+   .icon img {
+       height: 25px;
+       width: 25px;
+   }
+   
+   .mobilemenu a {
+       color: white;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-size: 17px;
+       display: block;
+   }
+   
+   .mobilemenu a.icon {
+       background: black;
+       display: block;
+       position: absolute;
+       right: 0;
+       top: 0;
+   }
+   
+   .mobilemenu a:hover {
+       color: black;
+   }
+   
+   .hi {
+       font-size: 4rem;
+       text-align: center;
+       padding-top: 16px;
+   }
+   
+   .intro,
+   .about {
+       padding: 10px;
+   }
+   
+   .service {
+       height: 720px;
+   }
+   
+   .box {
+       float: none;
+       display: block;
+       margin: auto;
+       margin: 50px auto;
+   }
+   
+   .contact {
+       width: 80%;
+       margin: 10px auto;
+       padding: 10px;
+   }
+   
+   .contact h2 {
+       padding: 5px;
+   }
+   
+   .input {
+       margin: 2px;
+       padding: 0px;
+       text-align: center;
+   }
+   
+   .btn {
+       width: 100px;
+       height: 30px;
+       margin-left: 0;
+   }
+   
+   .email {
+       display: none;
+   }
+   
+   .login {
+       width: 75%;
+       height: 400px;
+       background-color: rgb(201 221 175);
+       padding-left: 56px;
+       padding-top: 58px;
+       border-radius: 10px;
+       display: block;
+       margin: auto;
+       margin-top: 100px;
+   }
